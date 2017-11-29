@@ -5,4 +5,8 @@
   #include<vector>
   using namespace std;
   
-  class
+  class () 
+ {
+ 
+ 
+ }
