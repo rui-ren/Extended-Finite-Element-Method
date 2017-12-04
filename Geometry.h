@@ -1,5 +1,6 @@
+#ifndef GEOMETRY_H
+#define GEOMETRY_H
 #include<math.h>
-#include "General.h"
 #include<vector>
 #include<list>
 #include<iostream>
@@ -12,7 +13,6 @@ public:
 	void Young( double E);
 	double Crack_Geometry(double& X1, double& X2, double& Y1, double& Y2);
 	void Boundary(vector<double> X, vector<double> Y);
-
 
 protected:
 	// The Geometry Parameter of domain;
@@ -47,3 +47,5 @@ double Crack_Geometry(double& X1, double& X2, double& Y1, double& Y2)
 	double Crack = Crack_theta*X_Crack + b;
 	return Crack;
 };
+
+#endif
