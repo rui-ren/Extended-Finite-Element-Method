@@ -39,6 +39,8 @@ protected:
 
 
 
+
+
 // Crack geometry
 double Crack_Geometry(double& X1, double& X2, double& Y1, double& Y2)
 {
