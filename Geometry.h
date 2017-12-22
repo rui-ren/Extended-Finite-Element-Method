@@ -10,7 +10,6 @@ using namespace std;
 class Geometry
 {
 public:
-	void Young( double E);
 	double Crack_Geometry(double& X1, double& X2, double& Y1, double& Y2);
 	void Boundary(vector<double> X, vector<double> Y);
 
