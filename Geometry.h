@@ -38,6 +38,7 @@ protected:
 	double Y2;
 };
 
+<<<<<<< HEAD
 // The information of computation domain
 bool Circle()
 {
@@ -45,6 +46,13 @@ bool Circle()
 }
 
 // Crack geometry, the straight line mode
+=======
+
+
+
+
+// Crack geometry
+>>>>>>> 431c120cb349b434f21bf28d01fc12b84ba872f8
 double Crack_Geometry(double& X1, double& X2, double& Y1, double& Y2)
 {
 	double X_Crack = NULL;

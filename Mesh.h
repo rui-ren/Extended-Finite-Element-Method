@@ -9,8 +9,8 @@ using namespace std;
 
 class Mesh
 {
-	Mesh();	 //constructor
-	~Mesh(); // destructor
+	Mesh();	 
+	~Mesh();
 public:
 	vector<int> Elem_Num;
 	vector<int> Elem_Node;
