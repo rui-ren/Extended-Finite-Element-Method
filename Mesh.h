@@ -6,6 +6,7 @@
 
 using namespace std;
 
+
 class Mesh
 {
 	Mesh();	 //constructor
@@ -14,6 +15,7 @@ public:
 	vector<int> Elem_Num;
 	vector<int> Elem_Node;
 };
+
 
 double Elem_Node(vector<int>& ElemNum)
 {
@@ -36,5 +38,4 @@ double Elem_Node(vector<int>& ElemNum)
 		}
 	}
 };
-
 

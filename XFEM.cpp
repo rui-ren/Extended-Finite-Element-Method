@@ -11,9 +11,7 @@ using namespace std;
 
 int main()
 {
-	/////////////////////////////////// Plot the geometry of the domain////////////////////////////////////
-
-
+	/////////////////////////////////// Plot the geometry of the domain///////////////////////////////////
 
 	////////////////////////////////// Input the in formation of Mesh////////////////////////////////////
 	vector<int> ElemNum;
@@ -21,7 +19,6 @@ int main()
 	cin >> ElemNum[0];			// input the number of element in X direction
 	cout << "Input the element number in Y direction" << endl;
 	cin>>ElemNum[1] ;			// input the number of element in Y direction
-
 
 	system("Pause");
 	return 0;
