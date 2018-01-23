@@ -22,7 +22,6 @@ double Point::angle() const
 
 Point::Point(double x, double y)
 {
-	//(*(dynamic_cast< valarray<double> *>(this))) ;
 	this->x = x;
 	this->y = y;
 	this->z = 0;
