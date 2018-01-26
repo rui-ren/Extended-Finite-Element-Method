@@ -18,7 +18,6 @@ using namespace std;
 // Enrichment items : cracks, holes, material interface
 // Derive from FEM Component father class
 
-
 class EnrichmentItem :public FEMComponent
 {
 
