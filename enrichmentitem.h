@@ -99,5 +99,4 @@ protected:
 	vector<Element*>*    interactedElements;	//!< a list of elements interacting with me
 };
 
-
 #endif //_ENRICHMENTITEM_H_
