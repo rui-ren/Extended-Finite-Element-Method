@@ -50,7 +50,7 @@ public:
 	/*!
 	Computes the intersection points of circle and triangle
 	@param t the triangle
-	@return intersection points stored in vector<Mu::Point>
+	@return intersection points stored in vector<Rui::Point>
 	*/
 	std::vector<rui::Point> intersection(const rui::Triangle* t);
 	std::vector<rui::Point> intersection(const rui::Segment* s);
