@@ -12,7 +12,6 @@
 This class implements a circle with center P and radius R
 */
 
-
 class Cercle :public GeometryEntity
 {
 public:
