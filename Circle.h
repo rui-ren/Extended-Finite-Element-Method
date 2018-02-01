@@ -10,6 +10,7 @@
 
 /*! A Circle is geometry of holes
 This class implements a circle with center P and radius R
+Circle heaviside
 */
 
 class Cercle :public GeometryEntity
