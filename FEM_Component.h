@@ -4,7 +4,6 @@
 #include "string.h"
 class Domain; 
 class FileReader;
-
 class FEMComponent
 	/*
 	This class is an abstract class, the superclass of all classes that imple-
