@@ -60,7 +60,6 @@ public:
 	*/
 	void  exportToMatlab(std::string&);
 
-
 private:
 	int      center;
 	double   radius;
