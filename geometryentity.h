@@ -67,7 +67,6 @@ public:
 	VectorLevelSetDescription (geoDescription=3)
 	*/
 
-
 	GeometryDescription*	giveMyGeoDescription();    //return the Heaviside Value of the function
 	/*
 	Returns	the position of the point compared to the	receiver
